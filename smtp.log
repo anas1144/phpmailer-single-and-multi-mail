@@ -1,0 +1,400 @@
+2022-01-14 05:21:37	1	CLIENT -> SERVER: EHLO localhost
+
+2022-01-14 05:21:38	1	CLIENT -> SERVER: AUTH LOGIN
+
+2022-01-14 05:21:38	1	CLIENT -> SERVER: [credentials hidden]
+2022-01-14 05:21:38	1	CLIENT -> SERVER: [credentials hidden]
+2022-01-14 05:21:38	1	CLIENT -> SERVER: MAIL FROM:<from@example.com>
+
+2022-01-14 05:21:38	1	CLIENT -> SERVER: RCPT TO:<max@example.com>
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: DATA
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: Date: Fri, 14 Jan 2022 06:21:37 +0100
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: To: Max <max@example.com>
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: From: Mailer <from@example.com>
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: Subject: Here is the subject
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: Message-ID: <fby3Gwc52vUOKdtfd3shOqMb23ZTL0WfrLHyEcePE@localhost>
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: X-Mailer: PHPMailer 6.5.3 (https://github.com/PHPMailer/PHPMailer)
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: MIME-Version: 1.0
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER:  boundary="b1_fby3Gwc52vUOKdtfd3shOqMb23ZTL0WfrLHyEcePE"
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: This is a multi-part message in MIME format.
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: --b1_fby3Gwc52vUOKdtfd3shOqMb23ZTL0WfrLHyEcePE
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: Hello, Max! 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER:  How are you?
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: --b1_fby3Gwc52vUOKdtfd3shOqMb23ZTL0WfrLHyEcePE
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: <h2>Hello, Max!</h2> <p>How are you?</p>
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: --b1_fby3Gwc52vUOKdtfd3shOqMb23ZTL0WfrLHyEcePE--
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:39	1	CLIENT -> SERVER: .
+
+2022-01-14 05:21:40	1	CLIENT -> SERVER: RSET
+
+2022-01-14 05:21:40	1	CLIENT -> SERVER: MAIL FROM:<from@example.com>
+
+2022-01-14 05:21:40	1	CLIENT -> SERVER: RCPT TO:<box@example.com>
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: DATA
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: Date: Fri, 14 Jan 2022 06:21:40 +0100
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: To: box <box@example.com>
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: From: Mailer <from@example.com>
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: Subject: Here is the subject
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: Message-ID: <Jvc2eWp7Fiu48g7MvZ8Mvmj8Xg7KqGLz7KRGjHUNQIs@localhost>
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: X-Mailer: PHPMailer 6.5.3 (https://github.com/PHPMailer/PHPMailer)
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: MIME-Version: 1.0
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER:  boundary="b1_Jvc2eWp7Fiu48g7MvZ8Mvmj8Xg7KqGLz7KRGjHUNQIs"
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: This is a multi-part message in MIME format.
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: --b1_Jvc2eWp7Fiu48g7MvZ8Mvmj8Xg7KqGLz7KRGjHUNQIs
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: Hello, box! 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER:  How are you?
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: --b1_Jvc2eWp7Fiu48g7MvZ8Mvmj8Xg7KqGLz7KRGjHUNQIs
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: <h2>Hello, box!</h2> <p>How are you?</p>
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: --b1_Jvc2eWp7Fiu48g7MvZ8Mvmj8Xg7KqGLz7KRGjHUNQIs--
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:41	1	CLIENT -> SERVER: .
+
+2022-01-14 05:21:42	1	CLIENT -> SERVER: RSET
+
+2022-01-14 05:21:42	1	CLIENT -> SERVER: MAIL FROM:<from@example.com>
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: RCPT TO:<joe@example.net>
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: DATA
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: Date: Fri, 14 Jan 2022 06:21:42 +0100
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: To: Joe User <joe@example.net>
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: From: Mailer <from@example.com>
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: Subject: Here is the subject
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: Message-ID: <T9cvMNZvXhGkjsC5t25AQbJKnUMDZDbpK7yxtCR20@localhost>
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: X-Mailer: PHPMailer 6.5.3 (https://github.com/PHPMailer/PHPMailer)
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: MIME-Version: 1.0
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER:  boundary="b1_T9cvMNZvXhGkjsC5t25AQbJKnUMDZDbpK7yxtCR20"
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: This is a multi-part message in MIME format.
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: --b1_T9cvMNZvXhGkjsC5t25AQbJKnUMDZDbpK7yxtCR20
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: Hello, Joe User! 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER:  How are you?
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: --b1_T9cvMNZvXhGkjsC5t25AQbJKnUMDZDbpK7yxtCR20
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: <h2>Hello, Joe User!</h2> <p>How are you?</p>
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: --b1_T9cvMNZvXhGkjsC5t25AQbJKnUMDZDbpK7yxtCR20--
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: 
+
+2022-01-14 05:21:43	1	CLIENT -> SERVER: .
+
+2022-01-14 05:21:44	1	CLIENT -> SERVER: RSET
+
+2022-01-14 05:21:44	1	CLIENT -> SERVER: QUIT
+
+2022-01-14 05:27:17	1	CLIENT -> SERVER: EHLO localhost
+
+2022-01-14 05:27:17	1	CLIENT -> SERVER: AUTH LOGIN
+
+2022-01-14 05:27:17	1	CLIENT -> SERVER: [credentials hidden]
+2022-01-14 05:27:17	1	CLIENT -> SERVER: [credentials hidden]
+2022-01-14 05:27:17	1	CLIENT -> SERVER: MAIL FROM:<from@example.com>
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: RCPT TO:<max@example.com>
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: DATA
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: Date: Fri, 14 Jan 2022 06:27:16 +0100
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: To: Max <max@example.com>
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: From: Mailer <from@example.com>
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: Subject: Here is the subject
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: Message-ID: <kkQAP3PWi82MvO6IqywctdyCPFlcOEVypgoWsk68@localhost>
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: X-Mailer: PHPMailer 6.5.3 (https://github.com/PHPMailer/PHPMailer)
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: MIME-Version: 1.0
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER:  boundary="b1_kkQAP3PWi82MvO6IqywctdyCPFlcOEVypgoWsk68"
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: This is a multi-part message in MIME format.
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: --b1_kkQAP3PWi82MvO6IqywctdyCPFlcOEVypgoWsk68
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: Hello, Max! 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER:  How are you?
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: --b1_kkQAP3PWi82MvO6IqywctdyCPFlcOEVypgoWsk68
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: <h2>Hello, Max!</h2> <p>How are you?</p>
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: --b1_kkQAP3PWi82MvO6IqywctdyCPFlcOEVypgoWsk68--
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:18	1	CLIENT -> SERVER: .
+
+2022-01-14 05:27:19	1	CLIENT -> SERVER: RSET
+
+2022-01-14 05:27:19	1	CLIENT -> SERVER: MAIL FROM:<from@example.com>
+
+2022-01-14 05:27:19	1	CLIENT -> SERVER: RCPT TO:<box@example.com>
+
+2022-01-14 05:27:19	1	CLIENT -> SERVER: DATA
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: Date: Fri, 14 Jan 2022 06:27:19 +0100
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: To: box <box@example.com>
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: From: Mailer <from@example.com>
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: Subject: Here is the subject
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: Message-ID: <ZnBdhLDhyMZLTO5vGI0wfNMyQUJUN76AXR0rs0gX9H4@localhost>
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: X-Mailer: PHPMailer 6.5.3 (https://github.com/PHPMailer/PHPMailer)
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: MIME-Version: 1.0
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER:  boundary="b1_ZnBdhLDhyMZLTO5vGI0wfNMyQUJUN76AXR0rs0gX9H4"
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: This is a multi-part message in MIME format.
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: --b1_ZnBdhLDhyMZLTO5vGI0wfNMyQUJUN76AXR0rs0gX9H4
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: Hello, box! 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER:  How are you?
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: --b1_ZnBdhLDhyMZLTO5vGI0wfNMyQUJUN76AXR0rs0gX9H4
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: <h2>Hello, box!</h2> <p>How are you?</p>
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: --b1_ZnBdhLDhyMZLTO5vGI0wfNMyQUJUN76AXR0rs0gX9H4--
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: .
+
+2022-01-14 05:27:20	1	CLIENT -> SERVER: RSET
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: MAIL FROM:<from@example.com>
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: RCPT TO:<joe@example.net>
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: DATA
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: Date: Fri, 14 Jan 2022 06:27:21 +0100
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: To: Joe User <joe@example.net>
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: From: Mailer <from@example.com>
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: Subject: Here is the subject
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: Message-ID: <MettBmpDDlyTmOfqnpI54IlolMk1BOVlUhVsNy5zmI@localhost>
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: X-Mailer: PHPMailer 6.5.3 (https://github.com/PHPMailer/PHPMailer)
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: MIME-Version: 1.0
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER:  boundary="b1_MettBmpDDlyTmOfqnpI54IlolMk1BOVlUhVsNy5zmI"
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: This is a multi-part message in MIME format.
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: --b1_MettBmpDDlyTmOfqnpI54IlolMk1BOVlUhVsNy5zmI
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: Hello, Joe User! 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER:  How are you?
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: --b1_MettBmpDDlyTmOfqnpI54IlolMk1BOVlUhVsNy5zmI
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: <h2>Hello, Joe User!</h2> <p>How are you?</p>
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: --b1_MettBmpDDlyTmOfqnpI54IlolMk1BOVlUhVsNy5zmI--
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: 
+
+2022-01-14 05:27:21	1	CLIENT -> SERVER: .
+
+2022-01-14 05:27:22	1	CLIENT -> SERVER: RSET
+
+2022-01-14 05:27:22	1	CLIENT -> SERVER: QUIT
+
